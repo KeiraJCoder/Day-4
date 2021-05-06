@@ -1,0 +1,167 @@
+import random
+
+coffee_order = [
+    "Mike G - Hot Chocolate",
+    "Pesh - Latte",
+    "Syed - Cappuccino",
+    "Toby - Yorkshire Tea",
+    "Keira - Caramel Frapuccino",
+    "Amir - Mocha",
+    "Mike D - Solo Espresso",
+    "Monir - Floata Coffee",
+    "Sam - Builders Tea",
+    "Andy - Black Tea",
+    "Pedro - Mocha Latte",
+    "Chris - Triple Shot Americano",
+    "Abdel - Oat Milk Flat White",
+    "Geoffrey - Red Tea",
+    "Will - Black Coffee"
+]
+
+little_coffee_run = ["Espresso", "Latte", "Mocha"]
+print (coffee_order)
+print (little_coffee_run)
+
+
+
+# x = randint (1,len(coffee_order))
+# print (coffee_order[x])
+#
+
+fave_songs = ["Metallica-Enter the Sandman", "Guns 'n Roses- Sweet Child o'Mine"," Pantera - Cemetery Gates"]
+fave_songs[1] = "Black Sabbath - War Pigs"
+
+print (fave_songs)
+
+little_coffee_run = ["Espresso", "Latte", "Mocha"]
+print (len(little_coffee_run)) # how many items in the list
+
+coffee_order = [
+    "Mike G - Hot Chocolate",
+    "Pesh - Latte",
+    "Syed - Cappuccino",
+    "Toby - Yorkshire Tea",
+    "Keira - Caramel Frapuccino",
+    "Amir - Mocha",
+    "Mike D - Solo Espresso",
+    "Monir - Floata Coffee",
+    "Sam - Builders Tea",
+    "Andy - Black Tea",
+    "Pedro - Mocha Latte",
+    "Chris - Triple Shot Americano",
+    "Abdel - Oat Milk Flat White",
+    "Geoffrey - Red Tea",
+    "Will - black Coffee"
+]
+
+coffee_order .append("Andy - Blody Mary") #.append adds item to the end
+coffee_order.insert(3, "Keira - Green Tea") #inserts order where defined
+coffee_order.pop()
+coffee_order.reverse()
+coffee_order.remove("Toby - Yorkshire Tea")
+coffee_order.sort() #alphabetised
+coffee_order.extend("Keira - Caramel Frappucino") #extends item 
+coffee_order.sort(key=str.lower)
+
+
+
+print (coffee_order)
+
+
+fave_website = [
+"https://google.com", 
+"https://facebook.com",
+"https://wikipedia.com",
+]
+
+fave_website.extend(["https://google.co.uk", "https://mylittlepony.org"])
+fave_website.reverse()
+print (fave_website)
+
+loops
+
+favourite_drinks = ["Coke", "Pepsi", "Monster"]
+
+for x in favourite_drinks: 
+    print (x)
+
+for i in range (2, 12, 1):
+    print (i) 
+
+name = ""
+
+while len(name) == 0: #while the length of name is equal to zero 
+    name = input("Enter your name: ") #ask the user to enter their name
+
+print ("Hello " +name + " you filthy swine!")
+
+films = [
+    "Deadpool",
+    "Donnie Darko",
+    "Moana"]
+
+
+for films in films:
+
+    print(films)
+def film_check():
+    if films[2] == "Ghostbusters":
+        print ("Yay, its Ghostbusters!!!")
+    else:
+        print ("Booooo, we want ghostbusters")
+film_check()
+
+
+import time
+
+for seconds in range (9,0,-1):
+    print (seconds)
+    time.sleep(1)
+print ("KEIRA IS F***ING AMAZING!!!!!!!!")
+
+name = ""
+
+while len(name) == 0: #while the length of name is equal to zero 
+    name = input("Enter your name: ") #ask the user to enter their name
+    
+print ("Hello " +name)
+
+num = 0
+while num <10: #while number is less than 10, keep printing
+    num+= 1
+    print (num)
+
+    import random
+
+    rand_num = random.randint(0,50)
+    my_num = 50
+    while rand_num != my_num:
+        print (rand_num)
+        rand_num = random.randint(0,50)
+
+print ("You've found {}".format(my_num))
+
+for x in range(13):
+    print("Hello World ")
+print()
+
+x = 1
+while x <= 13:
+    print ("Hello World")
+    x += 1
+
+Python program to shuffle a deck of card
+
+current_card = [
+    ]
+random.randint (1,len(current_card))
+
+current_card = ""
+cards = ["Diamond", "Spade", "Club", "Hearts"]
+pick_card = random.choice(cards)
+
+print("Your card is", pick_card)
+
+while pick_card != current_card:
+    current_card = random.choice(cards)
+    print(current_card)
